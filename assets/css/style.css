@@ -1,0 +1,278 @@
+
+.wrapper  {
+	width: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	font-family: 'Georgia',Times,'Times New Roman', serif;
+	background-color: #ffffff;
+	padding: 3em 0 3em 0;
+	border-bottom: 2pt;
+	border-style: solid;
+    border-color: #cccccc;
+}
+
+.MyName {
+	font-size: 20pt;
+	position: absolute;
+	float:left;
+	color: white;
+	background-color: #4aaaa5;
+	top:.3em;
+	left: 7.5em;
+	padding: 1.28em;
+}
+
+.linkMenu {
+	float: left;
+	margin-left: 70%;
+}
+
+.content {
+	background-image: url("../images/background.png");
+	width:100%;
+	height: 60%;
+	display: flex;
+}
+
+.bioinfo {
+	font-size: 12pt;
+	float: left;
+	background-color: #ffffff;
+	margin: 12.5em;
+    margin-left: 12em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 1em;
+    padding-left: 1em;
+	height: 70%;
+}
+
+.contactbox {
+	font-size: 12pt;
+	float: left;
+	background-color: #ffffff;
+	margin: 13.5em;
+    margin-left: 12em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 1em;
+    padding-left: 1em;
+	height: auto;
+	width: 136%;
+	}
+
+.imagebox {
+	font-size: 12pt;
+	float: left;
+	background-color: #ffffff;
+	margin: 12.5em;
+    margin-left: 12em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 1em;
+    padding-left: 1em;
+	height: 900px;
+	width: 143%;
+	}
+	
+.icon {
+	width: 4em;
+}
+
+h1 {
+	color: #4aaaa5;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.MyDog {
+	width:6em;
+	float: left;
+	margin:0 1em 1em 0;
+}
+
+
+h2 {
+	color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.mailbox input {
+	width: 99.7%;
+	padding: 0;
+}
+
+.mailbox textarea {
+	width: 100%;
+	padding: 0;
+}
+
+a {
+	color:#cccccc;
+	text-decoration: none;
+}
+
+.contactBody {
+	background-image: url("../images/background.png");
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+	width:100%;
+	text-align: center;
+	background-color: #666666;
+	color: #cccccc;
+	padding: 50px 0 50px 0;
+	border-top: 5px;
+	border-style: solid;
+    border-color: #4aaaa5;
+}
+
+textarea {
+	height: 10em;
+	width: 100%;
+}
+
+button {
+	width: 7em;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-size: 14pt;
+	padding: .5em;
+	border: none;
+}
+
+input {
+	width: 100%;
+	padding:.5em;
+	color: #cccccc;
+}
+
+.images {
+	position: relative;
+}
+
+.Placeholder1 {
+	width: 10em;
+
+}
+
+.Placeholder2 {
+    width: 10em;
+    position: absolute;
+    bottom: 42px;
+    left: 0;
+	
+}
+
+.Placeholder3 {
+	
+	position: absolute;
+    width: 10em;
+    bottom: -209px;
+    left: 0;
+
+}
+
+.Placeholder4 {
+	width: 10em;
+    position: absolute;
+    bottom: 290px;
+    left: 227px;	
+	
+}
+
+.Placeholder5 {
+	position: absolute;
+    width: 10em;
+    bottom: 42px;
+    left: 227px;
+}
+
+.captionA {
+
+    text-align: center;
+    position: relative;
+    top: 171px;
+    left: 0;
+    width: 8.75em;
+    height: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+	
+
+
+.captionB {
+
+	text-align: center;
+    position: relative;
+    top: 162px;
+    width: 8.75em;
+    height: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    z-index: 2;
+}
+
+.captionC {
+
+	text-align: center;
+    position: relative;
+    top: 340px;
+    left: 0;
+    width: 8.75em;
+    height: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    z-index: 4;
+}
+
+.captionD {
+
+    text-align: center;
+    position: relative;
+    top: -228px;
+    right: -227px;
+    width: 8.75em;
+    height: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    z-index: 1;
+}
+
+.captionE {
+	text-align: center;
+    position: relative;
+    top: -52px;
+    right: -227px;
+    width: 8.75em;
+    height: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    z-index: 3;
+
+}
